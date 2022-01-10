@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'django_heroku.wsgi.application'
 
 DATABASES = {
       "default": dj_database_url.config(default=f"sqlite:///{BASE_DIR}/db.sqlite3")
-    }
+}
 
 
 
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'UTC'
 
