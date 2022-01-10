@@ -25,7 +25,7 @@ env.read_env(BASE_DIR / ".env", recurse=False)
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 #
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env.str("SECRET_KEY")
+SECRET_KEY = 'EbbbatttEE$5$@#$%ghdnmffvç><<<>0o0o))'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'django_heroku.wsgi.application'
 
 DATABASES = {
       "default": dj_database_url.config(default=f"sqlite:///{BASE_DIR}/db.sqlite3")
-}
+    }
 
 
 
